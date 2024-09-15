@@ -37,7 +37,7 @@ public class Splash implements ActionListener {
         JButton continueButton=new JButton();
         continueButton.setText("Click Here to Continue");
         continueButton.setBounds(400,400,300,70);
-        continueButton.setBackground(Color.darkGray);
+        continueButton.setBackground(Color.BLACK);
         continueButton.setForeground(Color.WHITE);
         continueButton.addActionListener(this);
         l2.add(continueButton);
